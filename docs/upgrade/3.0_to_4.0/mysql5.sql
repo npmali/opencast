@@ -55,7 +55,7 @@ RENAME TO mh_assets_asset,
 CHANGE COLUMN mediapackageelement mediapackage_element_id VARCHAR(128) NOT NULL,
 MODIFY COLUMN checksum VARCHAR(64) NOT NULL,
 ADD COLUMN snapshot_id BIGINT(20) NOT NULL,
-ADD COLUMN mime_type VARCHAR(64),
+ADD COLUMN mime_type VARCHAR(255),
 ADD COLUMN size BIGINT(20) NOT NULL,
 DROP COLUMN organization,
 DROP COLUMN uri;

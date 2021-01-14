@@ -21,7 +21,7 @@ CREATE TABLE `oc_assets_asset` (
   `mediapackage_element_id` varchar(128) NOT NULL,
   `checksum` varchar(64) NOT NULL,
   `snapshot_id` bigint(20) NOT NULL,
-  `mime_type` varchar(64) DEFAULT NULL,
+  `mime_type` varchar(255) DEFAULT NULL,
   `size` bigint(20) NOT NULL,
   `storage_id` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`id`),
