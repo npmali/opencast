@@ -577,7 +577,7 @@ public class EditorServiceImpl implements EditorService {
       }
 
       Track track = mediaPackage.getTrack(trackId);
-      
+
       if (subtitle.isDeleted()) {
         // If the subtitle is empty, remove the track
         if (trackId != null) {
